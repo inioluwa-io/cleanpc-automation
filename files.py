@@ -3,6 +3,7 @@ import os,re,time, datetime
 class Clean():
     def __init__(self):
         self.FILEPATH = input('Enter file absolute directory: ')
+
         if os.path.exists(self.FILEPATH) is not True:
             print("File path does not exist")
             exit()
